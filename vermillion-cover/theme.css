@@ -1,0 +1,35 @@
+/* A dark printed cover around the warm paper content. */
+[data-part="sidebar"] {
+  /* Account text and status actions need light ink on the dark cover. */
+  --color-accent: #fff2de;
+  --status-error: #fff0eb;
+  --text-strong: #fff5e5;
+  --text-regular: #f6e7d4;
+  --text-muted: #e9d3c0;
+  --text-faint: #e9d3c0;
+  --text-on-pill: #71382f;
+  --pill-bg: #fff2de;
+  --hover-bg: rgba(255, 241, 219, 0.15);
+  --hairline-hi: transparent;
+}
+
+/* Nav badges use the status color as a background behind white text. */
+[data-part="sidebar"] [data-part="nav-item"] {
+  --status-error: #a94033;
+}
+
+main h1,
+[data-part="card"] h2 {
+  font-family: Georgia, "Songti SC", "Noto Serif CJK SC", serif;
+  letter-spacing: 0.025em;
+}
+
+[data-part="card"] {
+  border-width: 1px 1px 1px 4px;
+  border-left-color: #a94033;
+  box-shadow: 5px 5px 0 rgba(164, 109, 75, 0.13);
+}
+
+[data-part="nav-item"][aria-current="page"] {
+  font-weight: 700;
+}
