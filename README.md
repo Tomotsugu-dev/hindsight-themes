@@ -5,6 +5,7 @@ Official themes for [Hindsight](https://github.com/Tomotsugu-dev/Hindsight). You
 | Theme | Folder |
 |---|---|
 | Vermillion Cover | [vermillion-cover](vermillion-cover/) |
+| Sakura Notes | [sakura-notes](sakura-notes/) |
 
 ## Install a theme
 
